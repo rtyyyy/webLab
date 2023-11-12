@@ -1,0 +1,124 @@
+.stage__info--wrapper {
+    max-width: 1200px;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
+.stage__info--wrapper h5 {
+    color: #CC4A3D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 115.02%;
+    /* 20.704px */
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+  
+.stages__list--wrapper {
+    margin-left: 90px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.stages__list--wrapper ul {
+    margin-right: 20px;
+    width: 270px;
+    height: 317px;
+    padding: 0 15px;
+    border-left: 2px solid rgba(204, 74, 61, 0.40);
+    margin-bottom: 30px;
+}
+.stages__list--wrapper li {
+    width: 240px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    font-family: 'Open Sans', sans-serif;
+    /* 23.4px */
+    margin-bottom: 10px;
+}
+.stages__list--wrapper ul{
+    position: relative;
+}
+
+
+.stages__list--wrapper li:last-child {
+    position: absolute;
+    bottom: 0;
+    color: #C6C6C8;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 115.02%;
+    /* 27.605px */
+    text-transform: uppercase;
+
+   
+}
+@media(max-width:360px){
+    .stage__info--wrapper {
+        max-width: 360px;
+        margin-left: 25px;
+        margin-top: 190px;
+    }
+    
+    .stage__info--wrapper h5 {
+        color: #CC4A3D;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 115.02%;
+        /* 20.704px */
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+    }
+    
+      
+    .stages__list--wrapper {
+        display: block;
+        margin-left: 0;
+    }
+    
+    .stages__list--wrapper ul {
+        margin-right: 20px;
+        width: 320px;
+        height: 317px;
+        padding: 15px 0;
+        border-left: none;
+        border-top: 2px solid rgba(204, 74, 61, 0.40);
+        margin-bottom: 30px;
+    }
+    .stages__list--wrapper li {
+        position: relative;
+        left: 150px;
+        width: 180px;
+        color: #000;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 130%;
+        font-family: 'Open Sans', sans-serif;
+        /* 23.4px */
+        margin-bottom: 10px;
+    }
+    .stages__list--wrapper ul{
+        position: relative;
+    }
+    
+    
+    .stages__list--wrapper li:last-child {
+        position: absolute;
+        left: 0;
+        top: 30px;
+        color: #C6C6C8;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 115.02%;
+        /* 27.605px */
+        text-transform: uppercase;
+    
+       
+    }
+}

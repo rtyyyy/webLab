@@ -1,0 +1,333 @@
+@import url(./colors.css);
+@import url(./consultation.css);
+@import url(./creation.css);
+@import url(./development.css);
+@import url(./iternal.css);
+@import url(./main.css);
+@import url(./menu.css);
+@import url(./mobile.css);
+@import url(./result.css);
+@import url(./stack.css);
+@import url(./stage.css);
+@import url(./title.css);
+
+
+
+body {
+    max-width: 1400px;
+    padding-left: 13vw;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+section > div {
+    opacity: 0;
+  }
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: pulse 2s infinite alternate;
+    background: radial-gradient(50% 50% at 50% 50%, #CC4A3D 0%, rgba(204, 74, 61, 0.00) 100%);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#c1 {
+    position: absolute;
+    width: 313px;
+    height: 314px;
+    z-index: -1;
+    top: 100px;
+    left: -50px;
+}
+
+#c2 {
+    position: absolute;
+    z-index: -1;
+    top: -100px;
+    left: 40vw;
+    width: 419px;
+    height: 418px;
+
+}
+
+#c3 {
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    width: 436px;
+    height: 436px;
+}
+
+#c4 {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    width: 456px;
+    height: 456px;
+    left: 60px;
+}
+
+#c5 {
+    position: absolute;
+    z-index: -1;
+    width: 436px;
+    top: 70%;
+    height: 436px;
+    left: 250px;
+}
+
+#c6 {
+    width: 568px;
+    height: 568px;
+    position: absolute;
+    z-index: -1;
+    left: 40%;
+    top: 40%;
+}
+
+#c7 {
+    width: 283px;
+    height: 283px;
+    position: absolute;
+    z-index: -1;
+    left: 70%;
+    top: 15%;
+}
+
+#c8 {
+    width: 283px;
+    height: 283px;
+    position: absolute;
+    z-index: -1;
+    left: 66%;
+    top: 65%;
+}
+
+#c9 {
+    width: 283px;
+    height: 283px;
+    position: absolute;
+    z-index: -1;
+    left: 70%;
+    top: 15%;
+}
+
+#c10 {
+    position: absolute;
+    z-index: -1;
+    top: 60%;
+    width: 456px;
+    height: 456px;
+    left: 260px;
+}
+
+#c11 {
+    position: absolute;
+    z-index: -1;
+    top: 23%;
+    left: 60px;
+    width: 436px;
+    height: 436px;
+}
+
+#c12 {
+    position: absolute;
+    z-index: -1;
+    top: 40%;
+    width: 456px;
+    height: 456px;
+    left: 45%;
+}
+
+#c13 {
+    position: absolute;
+    z-index: -1;
+    top: 2%;
+    width: 545px;
+    height: 545px;
+    left: 55%;
+}
+
+#c14 {
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    width: 368px;
+    height: 368px;
+    left: 10%;
+}
+
+#c15 {
+    position: absolute;
+    z-index: -1;
+    top: 40%;
+    width: 578px;
+    height: 578px;
+    left: 55%;
+}
+
+
+@media(max-width:360px){
+        body{
+        max-width: 360px;
+        padding-left: 0;
+    }
+    #c1 {
+        position: absolute;
+        width: 82px;
+        height: 82px;
+        z-index: -1;
+        top: 100px;
+        left: -20px;
+    }
+    
+    #c2 {
+        position: absolute;
+        z-index: -1;
+        top: -50px;
+        left: 65vw;
+        width: 128px;
+        height: 128px;
+    
+    }
+    #c3 {
+        position: absolute;
+        z-index: -1;
+        top: 20%;
+        width: 129px;
+        height: 129px;
+    }
+    
+    #c4 {
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        width: 110px;
+        height: 110px;
+        left: 60px;
+    }
+    
+    #c5 {
+        position: absolute;
+        z-index: -1;
+        width: 90px;
+        height: 90px;
+        top:70%;
+        left: 250px;
+    }
+    
+    #c6 {
+        width: 129px;
+        height: 129px;
+        position: absolute;
+        z-index: -1;
+        left: 40%;
+        top: 40%;
+    }
+    
+    #c7 {
+        width: 65px;
+        height: 65px;
+        position: absolute;
+        z-index: -1;
+        left: 70%;
+        top: 19%;
+    }
+    
+    #c8 {
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        z-index: -1;
+        left: 66%;
+        top: 65%;
+    }
+    #c9 {
+        width: 78px;
+        height: 78px;
+        position: absolute;
+        left: 70%;
+        top: 15%;
+    }
+    
+    #c10 {
+        position: absolute;
+        top: 60%;
+        width: 94px;
+        height: 94px;
+        left: 260px;
+    }
+    
+    #c11 {
+        position: absolute;
+        top: 23%;
+        left: 60px;
+        width: 128px;
+        height: 128px;
+    }
+    
+    #c12 {
+        position: absolute;
+        top: 40%;
+        width: 113px;
+        height: 113px;
+        left: 45%;
+    }
+    #c13 {
+        position: absolute;
+        z-index: -1;
+        top: 5%;
+        width: 169px;
+        height: 169px;
+        left: 55%;
+    }
+    
+    #c14 {
+        position: absolute;
+        z-index: -1;
+        top: 20%;
+        width: 128px;
+        height: 128px;
+        left: 0;
+    }
+    
+    #c15 {
+        position: absolute;
+        z-index: -1;
+        top: 40%;
+        width: 180px;
+        height: 180px;
+        left: 55%;
+    }
+    
+    #integration{
+        position: relative;
+        top: 270px;
+    }
+  
+}

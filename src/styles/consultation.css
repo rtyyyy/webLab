@@ -1,0 +1,226 @@
+
+
+
+.consultation__wrapper {
+    display: flex;
+    padding-top: 300px;
+    margin-top: 70px;
+
+    background: linear-gradient(343deg, #D15D51 32.67%, rgba(209, 93, 81, 0.00) 75.34%);
+}
+
+.consultation__wrapper--img {
+    margin-bottom: 244px;
+    margin-left: 120px;
+
+}
+
+#name {
+    position: relative;
+    top: -220px;
+    left: 280px;
+}
+
+.consultation__name--wrapper {
+
+    display: grid;
+    grid-template-columns: 300px 200px;
+    grid-template-rows: 100px 100px;
+    margin-bottom: 60px;
+}
+
+.consultation__data--wrapper {
+    position: relative;
+    left: -100px;
+}
+
+.consultation__registr--wrapper h2 {
+    color: #26252A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.consultation__registr--item {
+    margin-top: 30px;
+}
+
+.consultation__registr--item input {
+    width: 50%;
+    border: none;
+    width: 260px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+}
+
+.consultation__registr--item label {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.consulation__checkbox--wrapper h2 {
+    color: #26252A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.consultation__checkbox {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px;
+}
+
+.consultation__checkbox--item label {
+    color: #26252A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.consulation__button--wrapper button {
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    border-bottom: 4px solid #fff;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.consulation__button--wrapper h2 {
+    color: #26252A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.consulation__button--wrapper p {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132.66%;
+    /* 31.838px */
+    text-decoration-line: underline;
+}
+
+@Media(max-width:360px){
+         
+    .consultation__wrapper{
+        padding-top: 0px;
+    }
+    .consultation__wrapper--img{
+        display: none;
+    }
+    .consultation__name--wrapper {
+        display: block;
+        margin-bottom: 60px;
+    }
+    
+    .consultation__data--wrapper {
+        position: relative;
+        left: -10px;
+    }
+    
+    .consultation__registr--wrapper h2 {
+        font-size: 28px;
+        font-weight: 900;
+        margin-left:25px;
+       
+    }
+    
+    .consultation__registr--item {
+        margin-top: 60px;
+    }
+    
+    .consultation__registr--item input {
+        position:absolute;
+        border: none;
+        margin-bottom:50px;
+        max-width: 260px;
+        left:12px;
+        width:100%;
+        margin-left:30px;
+       padding-top:20px;
+        background-color: transparent;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        outline: none;
+    }
+    
+    .consultation__registr--item label {
+        position:relative;
+        top:-20px;
+        left:40px;
+        color: #000;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .consulation__checkbox--wrapper h2 {
+        color: #26252A;
+        margin-left:25px;
+font-family: Cera Pro;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    
+    .consultation__checkbox {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px;
+        margin-left:25px;
+    }
+    
+    .consultation__checkbox--item label {
+        color: #26252A;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .consulation__button--wrapper button {
+        margin-left:25px;
+        font-size: 24px;
+       
+    }
+    
+    .consulation__button--wrapper h2 {
+        margin-left:25px;
+        font-size: 30px;
+        
+    }
+    
+    .consulation__button--wrapper p {
+      font-size:20px;
+        margin-left:25px;
+    }
+}
